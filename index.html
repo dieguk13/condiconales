@@ -9,13 +9,10 @@
 </head>
 <body>
 <div id="vm">
-    <template v-if='ver'>
-        <h3>TITULO</h3>
-        <P>Parrafo</P>
-        Este es el Primer div</template>   
-        
-        <div v-else>Este es el Segundo div</div>  
-  
+    <div v-if='parrafo == 1'>Este es el Primer div</div>   
+    <div v-else-if="parrafo == 2">Este es el Segundo div</div>  
+    <div v-else>Parrafo no es ni 1, ni 2, ni 3</div>  
+
 </div>
 <script src="vue.js"></script>  
 </body>
