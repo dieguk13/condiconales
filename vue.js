@@ -1,6 +1,8 @@
 new Vue({
     el:"#vm",
     data: {
-        ver : false
+        mostrar: false
+        
+        //mostrar: false
         }
 })
