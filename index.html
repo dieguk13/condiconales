@@ -9,14 +9,23 @@
 </head>
 <body>
 <div id="vm">
-<div v-show='mostrar'>
+    <ul>
+        <li v-for="pais in paises">
+            {{pais}}
+            
+        </li>
+
+    </ul>
+
+
+    <!-- <div v-show='mostrar'>
     <h3>TITULO</h3>
     <P>Parrafo</P>
     Este es el Primer div
 </div>
 
 <div>Este es el Segundo div</div>
-</div>
+</div> -->
 <!-- <div v-else-if ='parrafo == 2'>Este es el Segundo Parrafo </div>
 <div v-else-if ='parrafo == 3'>Este es el Tercer Parrafo </div>
 <div v-else>Este no es ni el Primer, ni el segundo ni el tercer Parrafo, es el Parrafo que se sigue</div> -->
@@ -29,6 +38,7 @@
 <!--<div v-else>Este es el Segundo div</div>   -->
 
 
+</div>
 <script src="vue.js"></script>  
 </body>
 </html>

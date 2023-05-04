@@ -1,7 +1,10 @@
 new Vue({
     el:"#vm",
     data: {
-        mostrar: false
+        
+        paises: ['Colombia', 'EEUU', 'España', 'Londres' ]
+        
+        //mostrar: false
         
         //mostrar: false
         }
