@@ -9,9 +9,10 @@
 </head>
 <body>
 <div id="vm">
+    
     <ul>
-        <li v-for="pais in paises">
-            {{pais}}
+        <li v-for="(pais, indice) in paises">
+            {{ indice }} - {{ pais }}
             
         </li>
 
