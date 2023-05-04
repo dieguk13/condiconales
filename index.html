@@ -10,17 +10,13 @@
 <body>
 <div id="vm">
     
-    <ul>
-        <template v-for="pais of paises">
-            
-            <li>
-                {{ pais }}
+    <ol>
+            <li v-for="(valor, llave) in empleado">
+               {{llave}} - {{ valor }}
             </li>
-            <hr />
-            
-        </template>
-
-    </ul>
+                    
+       
+    </ol>
 
 
     <!-- <div v-show='mostrar'>
