@@ -11,10 +11,14 @@
 <div id="vm">
     
     <ul>
-        <li v-for="(pais, indice) in paises">
-            {{ indice }} - {{ pais }}
+        <template v-for="pais of paises">
             
-        </li>
+            <li>
+                {{ pais }}
+            </li>
+            <hr />
+            
+        </template>
 
     </ul>
 
